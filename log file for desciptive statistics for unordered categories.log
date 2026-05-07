@@ -95,8 +95,29 @@ extrmly conservative |         41        1.48       48.14
   log type:  text
  closed on:   7 May 2026, 08:11:42
 -------------------------------------------------------------------------------------------------------------------
-The first tabulations for sex and marital tell us a lot. Some 55.6% of our sample of
-2,765 adults comprises women, and 44.4% comprises men. We have 1,537 women and
-1,228 men. For the marital variable, 45.9% (1,269) of adults are married. This is a
-clear mode because this marital status is so much more frequent than any of the other
-statuses. By contrast, the mode for sex is not as predominant a category.
+-------------------------------------------------------------------------------------------------------------------
+      name:  <unnamed>
+       log:  C:\Users\Nyatichi\Desktop\Github\log file for desciptive statistics for unordered categories.log
+  log type:  text
+ opened on:   7 May 2026, 08:29:16
+
+.  graph pie, over(marital) cw sort(marital) title(Marital status in the United States) note(descriptive_gss.dta)
+
+. graph save Graph "C:\Users\Nyatichi\Desktop\Github\pie-chart descriptive statistics for marital status in the Uni
+> ted States.gph"
+(file C:\Users\Nyatichi\Desktop\Github\pie-chart descriptive statistics for marital status in the United States.gph
+>  saved)
+
+. histogram marital, discrete percent gap(10) addlabel xlabel(, angle(forty_five) valuelabel) title(Marital Status 
+> in the United States)
+(start=1, width=1)
+
+. graph save Graph "C:\Users\Nyatichi\Desktop\Github\bar chart-Marital Status in US.gph"
+(file C:\Users\Nyatichi\Desktop\Github\bar chart-Marital Status in US.gph saved)
+
+. log close
+      name:  <unnamed>
+       log:  C:\Users\Nyatichi\Desktop\Github\log file for desciptive statistics for unordered categories.log
+  log type:  text
+ closed on:   7 May 2026, 08:50:49
+-------------------------------------------------------------------------------------------------------------------
