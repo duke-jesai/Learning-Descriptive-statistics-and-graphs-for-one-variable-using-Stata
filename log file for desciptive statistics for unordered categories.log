@@ -1,0 +1,97 @@
+-------------------------------------------------------------------------------------------------------------------
+      name:  <unnamed>
+       log:  C:\Users\Nyatichi\Desktop\Github\log file for desciptive statistics for unordered categories.log
+  log type:  text
+ opened on:   7 May 2026, 08:00:59
+
+. use  descriptive_gss.dta, clear
+
+. tab1 sex marital polviews
+
+-> tabulation of sex  
+
+respondents |
+        sex |      Freq.     Percent        Cum.
+------------+-----------------------------------
+       male |      1,228       44.41       44.41
+     female |      1,537       55.59      100.00
+------------+-----------------------------------
+      Total |      2,765      100.00
+
+-> tabulation of marital  
+
+      marital |
+       status |      Freq.     Percent        Cum.
+--------------+-----------------------------------
+      married |      1,269       45.90       45.90
+      widowed |        247        8.93       54.83
+     divorced |        445       16.09       70.92
+    separated |         96        3.47       74.39
+never married |        708       25.61      100.00
+--------------+-----------------------------------
+        Total |      2,765      100.00
+
+-> tabulation of polviews  
+
+    think of self as |
+          liberal or |
+        conservative |      Freq.     Percent        Cum.
+---------------------+-----------------------------------
+   extremely liberal |         47        3.53        3.53
+             liberal |        143       10.74       14.27
+    slightly liberal |        159       11.95       26.22
+            moderate |        522       39.22       65.44
+slghtly conservative |        209       15.70       81.14
+        conservative |        210       15.78       96.92
+extrmly conservative |         41        3.08      100.00
+---------------------+-----------------------------------
+               Total |      1,331      100.00
+
+. tab1 sex marital polviews, missing
+
+-> tabulation of sex  
+
+respondents |
+        sex |      Freq.     Percent        Cum.
+------------+-----------------------------------
+       male |      1,228       44.41       44.41
+     female |      1,537       55.59      100.00
+------------+-----------------------------------
+      Total |      2,765      100.00
+
+-> tabulation of marital  
+
+      marital |
+       status |      Freq.     Percent        Cum.
+--------------+-----------------------------------
+      married |      1,269       45.90       45.90
+      widowed |        247        8.93       54.83
+     divorced |        445       16.09       70.92
+    separated |         96        3.47       74.39
+never married |        708       25.61      100.00
+--------------+-----------------------------------
+        Total |      2,765      100.00
+
+-> tabulation of polviews  
+
+    think of self as |
+          liberal or |
+        conservative |      Freq.     Percent        Cum.
+---------------------+-----------------------------------
+   extremely liberal |         47        1.70        1.70
+             liberal |        143        5.17        6.87
+    slightly liberal |        159        5.75       12.62
+            moderate |        522       18.88       31.50
+slghtly conservative |        209        7.56       39.06
+        conservative |        210        7.59       46.65
+extrmly conservative |         41        1.48       48.14
+                   . |      1,434       51.86      100.00
+---------------------+-----------------------------------
+               Total |      2,765      100.00
+
+. log close
+      name:  <unnamed>
+       log:  C:\Users\Nyatichi\Desktop\Github\log file for desciptive statistics for unordered categories.log
+  log type:  text
+ closed on:   7 May 2026, 08:11:42
+-------------------------------------------------------------------------------------------------------------------
